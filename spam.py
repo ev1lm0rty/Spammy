@@ -12,5 +12,5 @@ for i in data:
     i = i.strip()
     p.click()
     p.write(i)
-    p.press('enter')
+    p.press('space')
     time.sleep(0.5)
